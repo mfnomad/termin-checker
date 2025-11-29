@@ -2,7 +2,7 @@ name: Daily Appointment Checker
 
 on:
   schedule:
-    - cron: '45 59 * * *'   
+    - cron: '59 21 * * *'   
   workflow_dispatch:      # allow manual run
 
 jobs:
