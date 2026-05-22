@@ -125,16 +125,16 @@ def check_termin_availability():
         alert = driver.find_element(By.CSS_SELECTOR, "div.alert.alert-danger")
         if "Keine verfügbaren Termine" in alert.text:
             print("❌ No Auslaenderbehoerde appointments available.")
-            send_telegram_message("TQM mucho mi amorcitaa <3")
+            send_telegram_message("bebe erés preciosa sabes? :**")
             send_telegram_message("❌ No Auslaenderbehoerde appointments available time checked: " + timestamp)
             driver.quit()
             return False
     except:
         print("No red alert detected.")
 
-    print("✅ POSSIBLE appointments available!")
+    print("✅ POSSIBLE appointments available! ")
     send_telegram_message("✅ POSSIBLE Auslaenderbehoerde appointments available! Time checked: " + timestamp)
-    send_telegram_message("Besito del lobito :**")
+    send_telegram_message("bebe erés preciosa sabes? :**")
     
     
     driver.quit()
