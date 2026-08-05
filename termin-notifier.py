@@ -134,7 +134,7 @@ def check_termin_availability():
 
     print("✅ POSSIBLE appointments available! ")
     send_telegram_message("✅ POSSIBLE Auslaenderbehoerde appointments available! Time checked: " + timestamp)
-    send_telegram_message("bebe erés preciosa sabes? :**")
+    send_telegram_message("amor erés preciosa sabes? :**")
     
     
     driver.quit()
